@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>John Doe's Business Card</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet" href="css/app.css" />
+        <link type="image/x-icon" href="images/favicon.ico" rel="SHORTCUT ICON"/>
+        <link rel="apple-touch-icon" href="images/app.png" />
+    </head>
+    
+    <body>
+        <div data-role="page" id="defaultpage">
+            <div data-role="content">
+                <img src="images/johndoe.jpg" alt="johndoe" id="photo-image" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra
+                    fringilla lobortis. Duis ullamcorper,</p>
+                <p>dolor a dapibus facilisis, lacus arcu molestie justo, at egestas nibh
+                    est et eros. Integer ut turpis condimentum ante</p>
+                <a href="#contact" data-role="button">View Contact Info</a>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h3>Show Raw Contact Info</h3>
+                        <p>Voice Mail: 800-555-5555</p>
+                        <p>Skype: johndoe</p>
+                        <p>Email: johndoe@someplace.com</p>
+                        <p>Web: http://www.johndoe.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="contact" data-add-back-btn="true">
+            <div data-role="header" data-position="fixed">
+                <h1>John Doe</h1>
+            </div>
+            <div data-role="content">
+                <div data-role="controlgroup">
+                    <a href="tel:+18005555555" data-role="button">Voice Mail</a>
+                    <a href="skype:johndoe?call" data-role="button">Call via Skype</a>
+                    <a href="mailto:johndoe@someplace.com" data-role="button">Email: johndoe@someplace.com</a>
+                    <a href="index.html" data-role="button">Web: http://www.johndoe.com</a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
