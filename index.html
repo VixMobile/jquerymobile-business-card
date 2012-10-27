@@ -16,12 +16,15 @@
     <body>
         <div data-role="page" id="defaultpage">
             <div data-role="content">
-                <img src="images/johndoe.jpg" alt="johndoe" id="photo-image" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra
-                    fringilla lobortis. Duis ullamcorper,</p>
-                <p>dolor a dapibus facilisis, lacus arcu molestie justo, at egestas nibh
-                    est et eros. Integer ut turpis condimentum ante</p>
-                <br/><br/><br/>
+                <div id="intro">
+                    <img src="images/johndoe.jpg" alt="johndoe" id="photo-image" />
+                    <h1>John Doe</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra
+                        fringilla lobortis. Duis ullamcorper</p>
+                    <br/>
+                    <p>dolor a dapibus facilisis, lacus arcu molestie justo, at egestas nibh
+                        est et eros. Integer ut turpis condimentum ante</p>
+                </div>
                 <a href="#contact" data-role="button" data-transition="slide" data-theme="b">View Contact Info</a>
                 <div data-role="collapsible" id="contactinfo" data-theme="a" data-content-theme="c">
                     <h3>Show Raw Contact Info</h3>
@@ -30,8 +33,10 @@
                     <p>Email: johndoe@someplace.com</p>
                     <p>Web: http://www.johndoe.com</p>
                 </div>
+                <a href="https://github.com/cjus/jquerymobile-business-card" data-role="button" data-icon="arrow-d" data-transition="slide" data-theme="b">Grab this code</a>
             </div>
         </div>
+        
         <div data-role="page" id="contact" data-add-back-btn="true">
             <div data-role="header" data-position="fixed">
                 <h1>John Doe</h1>
