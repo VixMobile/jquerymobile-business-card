@@ -20,11 +20,12 @@
                     <img src="images/johndoe.jpg" alt="johndoe" id="photo-image" />
                     <h1>John Doe</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra
-                        fringilla lobortis. Duis ullamcorper</p>
+                        tringilla lobortis. Duis ullamcorper</p>
                     <br/>
                     <p>dolor a dapibus facilisis, lacus arcu molestie justo, at egestas nibh
                         est et eros. Integer ut turpis condimentum ante</p>
                 </div>
+                <a href="#qrcode" data-role="button" data-transition="slide" data-theme="b">View QR Code</a>
                 <a href="#contact" data-role="button" data-transition="slide" data-theme="b">View Contact Info</a>
                 <div data-role="collapsible" id="contactinfo" data-theme="a" data-content-theme="c">
                     <h3>Show Raw Contact Info</h3>
@@ -48,6 +49,17 @@
                     <a href="mailto:johndoe@someplace.com" data-role="button">Email: johndoe@someplace.com</a>
                     <a href="index.html" data-role="button">Web: http://www.johndoe.com</a>
                 </div>
+            </div>
+        </div>
+        
+        <div data-role="page" id="qrcode" data-add-back-btn="true">
+            <div data-role="header" data-position="fixed">
+                <h1>QR Code</h1>
+            </div>
+            <div data-role="content">
+                <p>Display this QR Code to another phone with a QR reader. Make sure not to obscure any portion of the image.</p>
+                <br/>
+                <img src="images/qrcode.jpg" alt="qr code" id="photo-qrcode" />
             </div>
         </div>
     </body>

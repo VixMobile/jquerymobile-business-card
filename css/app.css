@@ -8,6 +8,12 @@
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
+#photo-qrcode {
+    display:block;
+    margin: 0 auto;
+    text-align:center; /*centers images in older browsers*/
+    width: 312px;
+}
 #intro {
     min-height:100px;
 }
